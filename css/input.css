@@ -1,0 +1,12 @@
+*{font-family: 'Rubik', sans-serif;}@tailwind base;@tailwind components;@tailwind utilities;
+/* Hide scrollbar for WebKit browsers and Firefox on the whole HTML document */
+html, body {
+    overflow: auto; /* Ensure scrolling is still enabled */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  
